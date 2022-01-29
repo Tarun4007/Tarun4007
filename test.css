@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-Jun-2021, 3:49:21 pm
+    Author     : tarun
+*/
+
+body{
+   max-width: 1150px;
+   font-family: Roboto;
+   font-size: 14px;
+   margin-left: 0px;
+   padding: 10px;
+}
+ 
+div{
+    padding: 50px 50px 50px 50px;
+    width: 100%; 
+}
+
+a{
+ text-decoration: none;
+ background-color:#000;
+ 
+}
+ 
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a{
+  display: block;
+  padding: 5px;
+  background-color:#fff;
+  margin: 0px 10px;
+  float: right;
+  font-size: 18px;
+}
+#header{
+    background-color: #ededed;
+    padding: 5px 0px;
+    border-bottom: 1px solid #000;
+    color: #fff;
+    margin-left: 20px;
+    width: 1350px;
+    height: 30px;
+   
+}
+ 
+ #background-image{
+    background: url("ass images/intro-bg_1.jpg") no-repeat center;
+    height: 700px;
+    padding-top: 50px;
+    color: #fff;
+    margin: auto;
+    margin:0px 0px 20px 20px;
+    text-align: center;
+    width:1250px; 
+    
+}
+#content{
+    background-color: rgba(0,0,0,0.5);
+    max-width: 260px;
+    padding: 50px 50px;
+    margin-top:200px;
+    text-align: center;
+     
+}
+ 
+.thumbnail
+{
+    display:block;
+    padding: 1px;
+    border: 1px solid #a4a4a4;
+    color: #666;
+    margin:10px;
+    width: 300px;
+    float: right;
+}
+.footer{
+    margin-top:350px;
+    background-color: #000;
+    padding: 5px 0px; 
+    color: #fff;
+    height: 40px;
+    margin-left: 20px;
+    width: 1350px;
+  
+}
